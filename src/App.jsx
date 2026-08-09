@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import NumberColours from './components/NumberColours'
 import PasswordReveal from './components/PasswordReveal'
+import MultiCounter from './components/Multi-Counter'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <NumberColours/>
     <PasswordReveal/>
+    <MultiCounter/>
     </>
   )
 }
